@@ -10,7 +10,7 @@ function Login() {
     password: "",
   });
 
-  const { email, password, passwordConfirmed } = formData;
+  const { email, password } = formData;
 
   const dispatch = useDispatch()
 
